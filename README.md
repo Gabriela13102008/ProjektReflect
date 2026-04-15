@@ -2,13 +2,13 @@
 
 ## Projektübersicht
 **Project Reflect** ist eine Webapplikation, mit der Benutzer ihre täglichen Aufgaben tracken und Journal-Einträge erstellen können.  
-Das Projekt wurde im Modul **295** umgesetzt und beinhaltet ein modernes Frontend (React) sowie ein REST Backend (Spring Boot) mit JWT Authentifizierung.
+Das Projekt wurde im Modul 295 umgesetzt und beinhaltet ein modernes Frontend(React) sowie ein REST Backend(Spring Boot) mit JWT Authentifizierung.
 
 ---
 
 ## Ziele des Projekts
-- Aufbau einer **Multi-User Webapplikation**
-- Sicheres Login/Register mit **JWT**
+- Aufbau einer Multi-User Webapplikation
+- Sicheres Login/Register mit JWT
 - CRUD-Funktionalität für Habits und Journal-Einträge
 - Dashboard-Übersicht für tägliche Aufgaben und Fortschritt
 - User kann seinen Account bearbeiten oder löschen
@@ -28,10 +28,10 @@ Das Projekt wurde im Modul **295** umgesetzt und beinhaltet ein modernes Fronten
 - Account löschen
 
 ### Aufgaben
-- Habits erstellen (z.B. Wasser trinken, Sport, Lernen, Schlaf)
-- Habits löschen
-- Habits als erledigt markieren
-- Tagesansicht (heutige Habits)
+- Aufgaben erstellen (z.B. Wasser trinken, Sport, Lernen, Schlaf)
+- Aufgaben löschen
+- Aufgaben als erledigt markieren
+- Tagesansicht (heutige Aufgaben)
 
 ### Journal
 - Journal Einträge erstellen
@@ -44,7 +44,6 @@ Das Projekt wurde im Modul **295** umgesetzt und beinhaltet ein modernes Fronten
 - letzte Journal-Einträge anzeigen
 
 ---
-
 
 
 # Architektur
@@ -167,3 +166,20 @@ Das Frontend basiert auf React. React Router verwaltet Navigation zwischen Pages
 | User löscht fremden Habit | HTTP 404/403 |
 
 ---
+
+
+# Startanleitung
+
+## Backend starten
+mvn spring-boot:run
+
+Backend läuft auf:
+http://localhost:8081
+
+## Frontend starten
+cd frontend
+npm install
+npm run dev
+
+Frontend läuft auf:
+http://localhost:5173
