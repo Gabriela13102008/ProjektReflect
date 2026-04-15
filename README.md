@@ -65,7 +65,9 @@ Das Projekt wurde im Modul 295 umgesetzt und beinhaltet ein modernes Frontend(Re
 
 ---
 
-## JWT Authentifizierung Flow!!!!
+## JWT Authentifizierung Flow
+
+<img width="455" height="541" alt="image" src="https://github.com/user-attachments/assets/93d7c378-bd45-436d-b5b5-b1657aa53f0f" />
 
 
 ---
@@ -167,6 +169,37 @@ Das Frontend basiert auf React. React Router verwaltet Navigation zwischen Pages
 
 ---
 
+# User Stories
+
+### User 1 Registrierung
+Als neuer Benutzer möchte ich einen Account erstellen können damit ich meine Habits und Journal-Einträge speichern kann.
+
+**Akzeptanzkriterien**
+- Benutzer kann Username, Email und Passwort eingeben
+- Passwort wird gehasht gespeichert (BCrypt)
+- Nach Registrierung erhält Benutzer einen JWT Token
+
+---
+
+### User 2 Logout
+Als eingeloggter Benutzer möchte ich mich ausloggen können damit niemand anderes Zugriff auf meinen Account hat.
+
+**Akzeptanzkriterien**
+- Token wird aus localStorage entfernt
+- User wird aus dem AuthContext entfernt
+- Benutzer wird auf Login-Seite weitergeleitet
+
+---
+
+### User 3 Journal-Eintrag löschen
+Als Benutzer möchte ich einen Journal-Eintrag löschen können damit ich falsche Einträge entfernen kann.
+
+**Akzeptanzkriterien**
+- Eintrag wird aus DB gelöscht
+- Nur der Besitzer darf löschen
+- UI wird danach aktualisiert
+
+---
 
 # Startanleitung
 
