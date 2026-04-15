@@ -27,7 +27,7 @@ Das Projekt wurde im Modul **295** umgesetzt und beinhaltet ein modernes Fronten
 - Passwort ändern
 - Account löschen
 
-### Habit Tracker
+### Aufgaben
 - Habits erstellen (z.B. Wasser trinken, Sport, Lernen, Schlaf)
 - Habits löschen
 - Habits als erledigt markieren
