@@ -1,7 +1,7 @@
 # Project Reflect – Habit Tracker & Journal
 
 ## Projektübersicht
-**Project Reflect** ist eine Webapplikation, mit der Benutzer ihre täglichen Habits (Aufgaben) tracken und Journal-Einträge erstellen können.  
+**Project Reflect** ist eine Webapplikation, mit der Benutzer ihre täglichen Aufgaben tracken und Journal-Einträge erstellen können.  
 Das Projekt wurde im Modul **295** umgesetzt und beinhaltet ein modernes Frontend (React) sowie ein REST Backend (Spring Boot) mit JWT Authentifizierung.
 
 ---
@@ -44,6 +44,8 @@ Das Projekt wurde im Modul **295** umgesetzt und beinhaltet ein modernes Fronten
 - letzte Journal-Einträge anzeigen
 
 ---
+
+
 
 # Architektur
 
