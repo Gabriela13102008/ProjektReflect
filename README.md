@@ -55,6 +55,11 @@ Das Projekt wurde im Modul 295 umgesetzt und beinhaltet ein modernes Frontend(Re
 
 <img width="150" height="899" alt="image" src="https://github.com/user-attachments/assets/21960c84-c0db-4226-abbf-d098bba145d3" />
 
+---
+
+## Frontend Architektur
+<img width="216" height="800" alt="image" src="https://github.com/user-attachments/assets/9b1b029c-49d8-4ced-9a8f-12a19f063544" />
+
 
 ---
 
